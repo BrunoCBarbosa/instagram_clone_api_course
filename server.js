@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 controllers.init(app);
 
 /* Parametrizar porta de escuta */
-var port = 3000;
+const port = 3000;
 app.listen(port, function(){
     console.log(`Servidor HTTP está escutando na porta ${port}`);
 });
